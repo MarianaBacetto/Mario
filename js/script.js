@@ -15,3 +15,14 @@ const jump = () => {
     }, 500);
 }
 
+const loop = setInterval(() => {
+
+    const pipePosition = pipe.offsetLeft;
+    console.log(pipePosition)
+
+    if (pipePosition ≤ 120){
+
+        pipe.style.animation = 'none';
+    pipe.style.left = '${pipePosition}px'
+    }
+}, 10);

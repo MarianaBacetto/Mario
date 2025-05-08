@@ -68,6 +68,8 @@ body {
     position: absolute;
     bottom: 0;
     width: 80px;
+    right: -80px;
+    left: 120px;
     animation: pipe-animation 2s infinite linear;
 }
 
@@ -83,7 +85,7 @@ body {
 
 .clouds {
     position: absolute;
-    width: 550px;
+    width: 150px;
     animation: clouds-animation 20s infinite linear;
 }
 
@@ -98,7 +100,7 @@ body {
 }
 
 @keyframes pipe-animation {
-    0% {
+    from {
         right: -80px;
     }
 
